@@ -52,7 +52,7 @@ export default function RootLayout({
         <HiMenuAlt3 color="black" size={30} />
       </button>
       <aside
-        className={`py-10 w-full transition px-6 h-full max-w-[262px] bg-white flex flex-col gap-10 absolute top-0 right-0 lg:relative ${
+        className={`py-10 w-full transition px-6 h-full max-w-[262px] bg-white flex flex-col gap-10  top-0 right-0 lg:left-0 fixed ${
           isOpen ? "translate-x-0" : "translate-x-[100%] lg:translate-x-0"
         }`}
       >

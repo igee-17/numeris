@@ -11,7 +11,7 @@ import React from "react";
 const Landing = () => {
   const invoiceModal = useDisclosure();
   return (
-    <section className="bg-[#F5F6FA] w-full h-full px-4 md:px-8 lg:px-10 pb-20">
+    <section className="bg-[#F5F6FA] lg:ml-[280px] w-full h-full px-4 md:px-8 lg:px-10 pb-20">
       <Header />
       <InvoiceSummary />
       <InvoiceActions />
