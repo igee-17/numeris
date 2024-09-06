@@ -47,7 +47,7 @@ export default function RootLayout({
     <section className="flex h-full relative  overflow-hidden  w-full">
       <button
         onClick={toggle}
-        className=" absolute top-[35px] right-[48px] cursor-pointer  inline-flex lg:hidden"
+        className=" absolute top-[35px] right-[18px] cursor-pointer  inline-flex lg:hidden"
       >
         <HiMenuAlt3 color="black" size={30} />
       </button>
