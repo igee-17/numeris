@@ -44,7 +44,7 @@ export default function RootLayout({
   const { isOpen, open, close, toggle } = useSidebar();
 
   return (
-    <section className="flex h-full relative border-2 overflow-hidden border-red-500  w-full">
+    <section className="flex h-full relative  overflow-hidden  w-full">
       <button
         onClick={toggle}
         className=" absolute top-[35px] right-[48px] cursor-pointer  inline-flex lg:hidden"
