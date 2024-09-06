@@ -9,8 +9,21 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primaryBlue: "#003EFF",
+      },
+      maxWidth: {
+        max: "1080px",
+      },
+      fontFamily: {
+        neue: "Neue Haas Grotesk Text Pro",
+      },
+      screens: {
+        zr: "0px",
+        mb: "430px",
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
       },
     },
   },
