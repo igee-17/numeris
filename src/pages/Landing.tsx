@@ -16,7 +16,7 @@ const Landing = () => {
       <InvoiceSummary />
       <InvoiceActions />
 
-      <div className="w-full border flex gap-8 mt-4 lg:flex-row flex-col">
+      <div className="w-full flex gap-8 mt-4 lg:flex-row flex-col">
         <RecentInvoices modal={invoiceModal} />
         <RecentActivities />
       </div>
